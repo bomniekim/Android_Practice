@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "776210331750",
+    "firebase_url": "https://fir-auth-f7810.firebaseio.com",
+    "project_id": "fir-auth-f7810",
+    "storage_bucket": "fir-auth-f7810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776210331750:android:56d46fd9ae73c8611855a7",
+        "android_client_info": {
+          "package_name": "com.bomnie.firebase_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776210331750-6qa6uchna94hgjs3fj7q4eo60aoj8qjt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bomnie.firebase_auth",
+            "certificate_hash": "c9413af8766ee3f4d248a53cb0f68ce71357554f"
+          }
+        },
+        {
+          "client_id": "776210331750-8cppt924vg52unpd2lbhlv15qrf8fh2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Ctq79FEPxMbRheKgkOv2U-GpnS4zIrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776210331750-8cppt924vg52unpd2lbhlv15qrf8fh2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
