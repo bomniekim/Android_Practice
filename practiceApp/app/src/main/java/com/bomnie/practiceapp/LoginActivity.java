@@ -115,6 +115,9 @@ public class LoginActivity extends AppCompatActivity {
 //        return inputEmail == emailOk && inputPassword == passwordOk;
         // String은 같은 지 비교할 때 == 쓰면 안되자나!
         // .equal를 써야돼!
+
+        // 디버깅
+        Log.d("bomin", inputEmail + " / " + inputPassword + " / " + (inputEmail.equals(emailOk)) + " / " + (inputPassword.equals(passwordOk)));
         return inputEmail.equals(emailOk) && inputPassword.equals(passwordOk);
     }
 }
