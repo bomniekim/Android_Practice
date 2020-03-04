@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "913482557861",
+    "firebase_url": "https://jollypic-9b7b9.firebaseio.com",
+    "project_id": "jollypic-9b7b9",
+    "storage_bucket": "jollypic-9b7b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913482557861:android:85efc06bc826f342cae04c",
+        "android_client_info": {
+          "package_name": "com.bomnie.jollypic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913482557861-d86uhoa1gkpfqk61db9ib8743ki949hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWVZNykQyqAuM3jHaYzGD8-lXbKo_hjVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913482557861-d86uhoa1gkpfqk61db9ib8743ki949hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

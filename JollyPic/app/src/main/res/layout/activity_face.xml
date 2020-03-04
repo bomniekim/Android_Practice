@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    tools:context=".FaceActivity">
+
+    <!-- 1. 얼굴 사진을 보여주고   -->
+    <!-- 2.  선글라스 -->
+    <!-- 3. 고양이 수염  -->
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gimin"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+        <!-- adjustViewBounds: 비율에 맞게 그림일 설정됨 -->
+</RelativeLayout>
