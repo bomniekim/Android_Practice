@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "259818438944",
+    "firebase_url": "https://chattingapp-14381.firebaseio.com",
+    "project_id": "chattingapp-14381",
+    "storage_bucket": "chattingapp-14381.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259818438944:android:b9f99a47d97f9fcb899745",
+        "android_client_info": {
+          "package_name": "com.bomnie.chattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259818438944-ql0g2it2u0aa3l84fof4l0c3r90goe5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcfx2hqVb5TNWc3QiE5Yz9tam5ucufFwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259818438944-ql0g2it2u0aa3l84fof4l0c3r90goe5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
