@@ -77,7 +77,10 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
         // 닉네임을 비교하여 메세지 정렬
         if(chat.getNickname().equals(this.myNickname)){
             holder.tv_msg.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
+            holder.tv_nickname.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
         }else{
+            holder.tv_msg.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
+            holder.tv_nickname.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
 
         }
 
@@ -91,5 +94,11 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
 
     public ChatData getChat(int position){
         return mDataset != null ? mDataset.get(position) : null ;
+    }
+
+    // 채팅은 메세지가 들어올 때마다 덧붙여야 하는 로직 필요
+    public void addChat(ChatData chat){
+        mDataset.add(chat);
+        notifyItemInserted(mDataset.size()-1); // add하면 채팅 데이 배열의 크기가 늘어나므로 그것을 활용/ 리사이클러뷰 갱신용
     }
 }
