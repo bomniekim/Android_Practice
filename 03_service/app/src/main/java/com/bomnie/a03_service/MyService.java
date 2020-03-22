@@ -54,8 +54,11 @@ public class MyService extends Service {
         showIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|
                 Intent.FLAG_ACTIVITY_SINGLE_TOP|
                 Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        // 서비스는 화면이 없기 때문에 화면을 띄우려고 하면 '태스크'라는 정보가 없어서
-        // 문제가 생길 수 있기 때문에 옵션을 줌
+        // 서비스는 화면이 없기 때문에 화면을 띄우려고 하면 '태스크'라는 정보가 없어서 문제가 생길 수 있음
+
+        // 따라서 화면이 없는 서비스에서 화면이 있는 액티비티를 띄울 때는 태스크(Task)를 새로 만들어서 연결해야 함
+        // FLAG_ACTIVITY_NEW_TASK 플래그를 추가해주게 되는데 일반적인 경우 세 개의 플래그를 같이 사용
+
         showIntent.putExtra("command", "show");
         showIntent.putExtra("name", name+" from service");
         startActivity(showIntent);
