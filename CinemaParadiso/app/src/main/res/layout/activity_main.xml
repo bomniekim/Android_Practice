@@ -223,6 +223,7 @@
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:padding="8dp"
+                    android:layout_marginTop="8dp"
                     android:textColor="#000000"/>
 
                 <TextView
@@ -235,6 +236,7 @@
                     android:scrollHorizontally="false"
                     android:singleLine="false"
                     android:text="“여러분, 돈 법시다! 돈 벌 준비 됐죠?\n“곤경에 빠지는 건 뭔가를 몰라서가 아니다.\n  뭔가를 확실히 안다는 착각 때문이다”\n  - 마크 트웨인\n\n  2005년, 모두를 속인 채 돈 잔치를 벌인 은행들.\n  그리고 이를 정확히 꿰뚫고 월스트리트를 물 먹인\n  4명의 괴짜 천재들.\n  20조의 판돈, 세계 경제를 걸고 은행을 상대로 한 진짜 도박!\n 그들이 움직이기 시작했다!"
+                    android:layout_marginBottom="8dp"
                     android:textSize="16sp" />
 
 
@@ -257,6 +259,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
+                    android:layout_marginTop="8dp"
                     android:text="감독\/출연"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -299,6 +302,7 @@
                     android:layout_height="wrap_content"
                     android:text="크리스찬 베일(마이클 버리), 스티브 카렐(마크 버움)"
                     android:paddingBottom="8dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_toRightOf="@id/tv7"
                     android:layout_below="@id/tv6"
                     />
@@ -323,7 +327,7 @@
                     android:text="한줄평"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:paddingTop="18dp"
+                    android:paddingTop="16dp"
                     android:paddingLeft="8dp"
                     android:textColor="#000000"/>
 
@@ -335,7 +339,7 @@
                     android:text="작성하기"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:paddingTop="18dp"
+                    android:paddingTop="16dp"
                     android:paddingRight="12dp"
                     android:textColor="#ff686C"
                     android:layout_alignParentRight="true"/>
@@ -344,7 +348,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/review"
-                    android:paddingTop="18dp"
+                    android:paddingTop="12dp"
                     android:layout_toLeftOf="@id/writeComment"/>
 
             </RelativeLayout>
@@ -354,13 +358,13 @@
                 android:layout_height="200dp"/>
 
             <TextView
+                android:id="@+id/see_All"
                 android:background="#a0d0fe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:padding="8dp"
                 android:text="모두 보기"
-                android:textColor="#454545"
                 android:layout_margin="8dp"
                 android:textSize="20sp"/>
 

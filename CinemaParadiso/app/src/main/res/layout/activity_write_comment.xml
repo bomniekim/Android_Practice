@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="평점을 입력해주세요"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:padding="8dp"
         android:layout_gravity="center_horizontal" />
 
@@ -79,7 +79,7 @@
 
         <Button
             android:id="@+id/saveBtn"
-            android:layout_width="70dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="저장"
             android:textAlignment="center"
@@ -90,7 +90,7 @@
 
         <Button
             android:id="@+id/cancelBtn"
-            android:layout_width="70dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="취소"
             android:textAlignment="center"
