@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textViewStyle">@style/nanumTextView</item>
         <item name="buttonStyle">@style/nanumButton</item>
+        <item name="android:editTextStyle">@style/nanumEditText</item>
     </style>
 
     <style name="nanumTextView" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
@@ -15,6 +16,11 @@
     </style>
 
     <style name="nanumButton" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:fontFamily">@font/nsr</item>
+    </style>
+
+
+    <style name="nanumEditText" parent="Widget.AppCompat.EditText">
         <item name="android:fontFamily">@font/nsr</item>
     </style>
 </resources>

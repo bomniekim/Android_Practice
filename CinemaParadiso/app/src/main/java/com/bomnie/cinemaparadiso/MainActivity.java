@@ -2,6 +2,7 @@ package com.bomnie.cinemaparadiso;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private int unlikeCount;
     private boolean likeState = false;
     private boolean unlikeState = false;
+
+    private TextView writeComment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +55,17 @@ public class MainActivity extends AppCompatActivity {
                     unlikeCount++;
                     incUnLikeCount();
                 }
+            }
+        });
+
+        writeComment = findViewById(R.id.writeComment);
+        writeComment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), WriteCommentActivity.class);
+                startActivity(intent);
+
+
             }
         });
     }

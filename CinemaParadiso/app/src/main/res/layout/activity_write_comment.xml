@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WriteCommentActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="12dp"
+        >
+
+        <TextView
+            android:text="빅쇼트"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_15"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#e5e5e5">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="평점을 입력해주세요"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="4.2"
+        android:stepSize="0.1"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/contentsInput"
+        android:fontFamily="@font/fontstyle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:maxLength="100"
+        android:gravity="top"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:hint="100자 이내로 작성해주세요"
+        android:background="@drawable/writecomment_border"
+        android:textCursorDrawable="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <!-- align right 을 위한 View      -->
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="저장"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#a0d0fe"/>
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:background="#a0d0fe"
+            android:layout_marginRight="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>
