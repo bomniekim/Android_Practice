@@ -57,7 +57,7 @@
         android:layout_height="200dp"
         android:maxLength="100"
         android:gravity="top"
-        android:padding="10dp"
+        android:padding="10dp" 
         android:textSize="18sp"
         android:layout_margin="8dp"
         android:hint="100자 이내로 작성해주세요"
